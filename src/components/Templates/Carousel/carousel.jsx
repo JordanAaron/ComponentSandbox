@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './carousel.css'
 
-export const Carousel = () => {
+export const CarouselTemplate = () => {
   const items = ['item 1', 'item 2', 'item 3', 'item 4', 'item 5']
   const [activeIndex, setActiveIndex] = useState(0)
 
